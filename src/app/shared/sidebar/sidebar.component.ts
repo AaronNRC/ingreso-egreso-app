@@ -15,5 +15,6 @@ export class SidebarComponent {
     this.autService.logout().then(() => {
       this.router.navigate(['/login'])
     })
+    
   }
 }
